@@ -1,0 +1,52 @@
+# ==================== SETUP INSTRUCTIONS ====================
+
+## 1. Create Django Project
+# (Already created, skip if project exists)
+
+## 2. Install Dependencies
+pip install -r requirements.txt
+
+## 3. Database Setup
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+
+## 4. Create Sample Data (Optional)
+python manage.py create_sample_data --posts 20
+
+## 5. Collect Static Files
+python manage.py collectstatic
+
+## 6. Run Development Server
+python manage.py runserver
+
+## 7. Directory Structure
+See requirements for templates and static folders. Add missing templates for blog and accounts as needed.
+
+## 8. Key Features Included
+- User authentication and profiles
+- Create, edit, delete posts
+- Categories and tags
+- Rich text editor (CKEditor)
+- Image uploads with auto-resize
+- Comments system with replies
+- Search functionality
+- SEO-friendly URLs
+- Responsive design
+- Admin interface
+- View counting
+- Featured posts
+- Pagination
+
+## 9. Production Considerations
+- Change DEBUG = False
+- Set proper SECRET_KEY
+- Configure database (PostgreSQL recommended)
+- Set up proper static file serving
+- Configure email backend
+- Add security middleware
+- Set up SSL/HTTPS
+- Configure caching
+- Add monitoring and logging
+
+# Follow these instructions to get started!

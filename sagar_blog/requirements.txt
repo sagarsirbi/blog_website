@@ -1,0 +1,7 @@
+Django==4.2.7
+Pillow==10.1.0
+django-crispy-forms==2.1
+crispy-bootstrap5==0.7
+django-ckeditor==6.7.0
+django-taggit==4.0.0
+python-slugify==8.0.1
